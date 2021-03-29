@@ -89,3 +89,18 @@ body {
 .pink h3 {
   margin: 0;
 }
+
+.footer_links {
+  background-color: black;
+}
+
+.social_links img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.ft_links a {
+  text-decoration: none;
+  font-size: small;
+  color: blanchedalmond;
+}
