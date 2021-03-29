@@ -1,8 +1,6 @@
 @media only screen and (max-width: 480px) {
-  .top_nav {
-    display: none;
-  }
-  .top_navigation {
+  .left_nav,
+  .right_nav {
     display: none;
   }
 }
