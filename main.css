@@ -38,11 +38,9 @@ body {
   height: 48px;
 }
 
-.search_logo_top,
-.top_menu {
+.search_logo_top {
   display: flex;
   flex-direction: column;
-  text-align: center;
   height: 48px;
   width: 48px;
   border: 1px solid lightgray;
@@ -61,6 +59,7 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
   height: 30px;
+  width: 100%;
   background-color: yellow;
   font-size: 13px;
 }
@@ -70,3 +69,23 @@ body {
   color: black;
 }
 
+.news_headline {
+  margin-top: 110px;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.orange h2 {
+  margin: 0;
+}
+
+.pink {
+  background: pink;
+}
+
+.pink h3 {
+  margin: 0;
+}
