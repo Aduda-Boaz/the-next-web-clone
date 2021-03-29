@@ -1,0 +1,12 @@
+html,
+body {
+  box-sizing: border-box;
+}
+
+.top_nav ul {
+  list-style-type: none;
+}
+
+.top_navigation {
+  display: flex;
+}
