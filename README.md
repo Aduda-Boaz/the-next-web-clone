@@ -2,8 +2,8 @@
 
 # Building with Responsive Design 
 
-![The Next Web Clone](/img/nwbc1.png)
-![The Next Web Clone](/img/nwbc2.png)
+![The Next Web Clone](/images/nwbc1.png)
+![The Next Web Clone](/images/nwbc2.png)
 
 ### Built With
 
