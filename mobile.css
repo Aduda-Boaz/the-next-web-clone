@@ -90,8 +90,12 @@
     color: black;
   }
 
-  .more_links_nav div {
+  .more_links {
     padding-left: 20px;
+  }
+
+  .space {
+    margin-bottom: 12px;
   }
 
   .headlines {
