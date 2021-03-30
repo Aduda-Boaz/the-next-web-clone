@@ -42,6 +42,20 @@
     height: 170px;
     background-size: cover;
   }
+   /* Latest news */
+   .most-news {
+     grid-template-columns: 3px;
+   }
+
+   .latest_news {
+     display: flex;
+   }
+
+   .latest_news img {
+     width: 80px;
+     height: 80px;
+     padding: 0;
+   }
 }
 
 @media only screen and (min-width: 768px) {
@@ -104,17 +118,12 @@
     height: auto;
     background-size: cover;
   }
-  /* Latest news */
-  .most-news {
-    grid-template-columns: 3px;
-  }
-  .latest_news {
+  .articles {
     display: flex;
   }
-  .latest_news img {
-    width: 80px;
-    height: 80px;
-    padding: 0;
+
+  .art_x {
+    display: none;
   }
 }
 
