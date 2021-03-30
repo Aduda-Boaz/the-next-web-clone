@@ -40,6 +40,8 @@
   .news_headline3 {
     width: 100%;
     height: 170px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-size: cover;
   }
 
@@ -106,6 +108,8 @@
   .news_headline {
     width: 130%;
     height: 330px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-size: cover;
   }
 
@@ -120,6 +124,8 @@
   .news_headline3 {
     width: 100%;
     height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     background-size: cover;
   }
 
