@@ -126,6 +126,10 @@
   .art_x {
     display: none;
   }
+
+  .latest_news div {
+    padding-right: 5px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
