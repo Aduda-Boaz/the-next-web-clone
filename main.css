@@ -145,6 +145,10 @@ a {
   background-image: url("images/hg1.webp");
 }
 
+.art {
+  padding: 5px;
+}
+
 .footer-container {
   background: black;
 }

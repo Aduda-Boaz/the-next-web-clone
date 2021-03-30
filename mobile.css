@@ -132,4 +132,14 @@
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  .latest_news img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1048px) {
+  .art_x {
+    display: block;
+  }
 }
