@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .top_nav {
@@ -90,12 +91,25 @@ body {
   margin: 0;
 }
 
-.footer_links {
-  background-color: black;
+.footer-container {
+  background: black;
 }
 
-.social_links img {
-  width: 25px;
+.links_container {
+  padding: 20px 0;
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+}
+
+.footer_links {
+  display: block;
+}
+
+.footer_links img {
+  width: 20px;
+  height: 20px;
+  background: rgb(17, 15, 15);
+  padding: 5px;
   border-radius: 50%;
 }
 
@@ -103,4 +117,36 @@ body {
   text-decoration: none;
   font-size: small;
   color: blanchedalmond;
+}
+
+.other_links a {
+  padding: 5px;
+}
+
+.footer-lower,
+.footer-lower {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background: black;
+  line-height: 1.2;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-legal-StackPath {
+  width: 100px;
+  height: 70px;
+}
+
+.footer-legal,
+.footer-legal-StackPath {
+  display: inline-block;
+  height: 30px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
