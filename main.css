@@ -63,12 +63,6 @@ a {
   margin: 20px 10px 20px 10px;
 }
 
-.most_news {
-  display: flexbox;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .most_header h2 {
   color: rgb(248, 59, 26);
 }
