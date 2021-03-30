@@ -2,6 +2,8 @@
 
 # Building with Responsive Design 
 
+![The Next Web Clone](/img/nwbc1.png)
+![The Next Web Clone](/img/nwbc2.png)
 
 ### Built With
 
@@ -10,7 +12,7 @@
 
 ## Live Version Here 👇🏽️
 
-- **Soon**
+- [The Next Web Clone](https://ad9311.github.io/nwbc/)
 
 ## Author
 
