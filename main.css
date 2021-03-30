@@ -25,13 +25,13 @@ a {
 
 .ul_left,
 .ul_right {
-  padding: 0 5px;;
+  padding: 0 5px;
 }
 
 .mobile_nav {
   width: 100%;
   display: flex;
-  justify-content: flex-flex-start;
+  justify-content: flex-start;
 }
 
 .top_navigation {
@@ -181,7 +181,6 @@ a {
   padding: 5px;
 }
 
-.footer-lower,
 .footer-lower {
   display: block;
   font-size: 14px;
