@@ -43,8 +43,6 @@
     background-size: cover;
   }
 
-   /* Latest news */
-
   .most-news {
     grid-template-columns: 3px;
   }
