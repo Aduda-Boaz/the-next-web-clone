@@ -3,6 +3,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 a {
@@ -80,8 +81,8 @@ a {
   margin: 20px 10px 20px 10px;
 }
 
-.most_header h2 {
-  color: rgb(248, 59, 26);
+.most_header a {
+  color: #f42;
 }
 
 .latest_header {
@@ -130,21 +131,19 @@ a {
 }
 
 .articles hr {
-  color: #ff4422;
+  color: #f42;
 }
 
 .links_latest {
-  /*display: flex;
-  flex-direction: column;*/
-  color: #ff4422;
+  color: #f42;
 }
 
 .links_latest a {
-  color: #ff4422;
+  color: #f42;
 }
 
 .orange {
-  background-color: #ff4422;
+  background-color: #f42;
   color: white;
   height: 43px;
 }
@@ -155,7 +154,7 @@ a {
 }
 
 .pink {
-  background: #ffeBe7;
+  background: #ffebe7;
   height: 60px;
   padding-left: 10px;
 }

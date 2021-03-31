@@ -17,6 +17,15 @@
     margin-top: 108px;
   }
 
+  .hg_date_logo {
+    display: none;
+  }
+
+  .articles {
+    display: flex;
+    flex-direction: column;
+  }
+
   .more_links {
     display: none;
   }
@@ -108,6 +117,10 @@
     margin-top: 110px;
   }
 
+  .hg_date_logo {
+    display: none;
+  }
+
   .news_headline {
     width: 130%;
     height: 411px;
@@ -158,5 +171,17 @@
 
   .tnw_logo {
     display: none;
+  }
+
+  .hg_date_logo {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .hg_date_logo svg {
+    width: 50%;
+    height: 110px;
+    margin: 10px;
   }
 }
