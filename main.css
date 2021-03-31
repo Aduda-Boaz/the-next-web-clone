@@ -126,8 +126,17 @@ a {
   color: black;
 }
 
-.articles {
-  display: flex;
+.art h2,
+.art_x h2 {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.art img,
+.art_x img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
 
 .articles hr {
@@ -143,6 +152,7 @@ a {
 }
 
 .orange {
+  display: flex;
   background-color: #f42;
   color: white;
   height: 43px;
@@ -159,8 +169,21 @@ a {
   padding-left: 10px;
 }
 
-.pink h3 {
-  margin: 0;
+.pink_text {
+  padding-top: 5px;
+  width: 100px;
+  height: 100%;
+  position: relative;
+  left: 80px;
+}
+
+.pink_text h3 {
+  margin-top: 15px;
+  line-height: 0px;
+}
+
+.pink a {
+  color: gray;
 }
 
 .extra_info,
@@ -187,7 +210,6 @@ a {
 
 .news_text,
 .orange_shadow {
-
   height: 100%;
   display: flex;
   flex-direction: column-reverse;
