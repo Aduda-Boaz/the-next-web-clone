@@ -2,8 +2,8 @@
   .left_nav,
   .right_nav,
   .top_black_navigation {
-    display: none;
-  }
+  display: none;
+ }
 
   .links_latest {
     display: flex;
@@ -33,6 +33,10 @@
     height: 48px;
     width: 48px;
     border: 1px solid lightgray;
+  }
+
+  .yellow_banner {
+    height: 60px;
   }
 
   .news_headline,
@@ -100,14 +104,18 @@
     margin-bottom: 12px;
   }
 
+  .yellow_banner {
+    height: 30px;
+  }
+
   .headlines {
     display: flex;
-    margin-top: 140px;
+    margin-top: 110px;
   }
 
   .news_headline {
     width: 130%;
-    height: 330px;
+    height: 411px;
     margin-left: 5px;
     margin-right: 5px;
     background-size: cover;
@@ -140,9 +148,7 @@
   .latest_news div {
     padding-right: 5px;
   }
-}
 
-@media only screen and (min-width: 769px) {
   .most_news {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -157,5 +163,9 @@
 @media only screen and (min-width: 1048px) {
   .art_x {
     display: block;
+  }
+
+  .tnw_logo {
+    display: none;
   }
 }

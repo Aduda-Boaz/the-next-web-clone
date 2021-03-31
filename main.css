@@ -55,12 +55,17 @@ a {
 }
 
 .search_logo_top {
+  text-align: center;
   padding: 0 8px;
   display: flex;
   flex-direction: column;
   height: 48px;
   width: 48px;
   border: 1px solid lightgray;
+}
+
+.top_menu {
+  text-align: center;
 }
 
 .search_logo_top img,
@@ -96,12 +101,16 @@ a {
   margin-left: 20px;
 }
 
+.vert_align {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .yellow_banner {
   padding-left: 6px;
   padding-right: 6px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  height: 30px;
   width: 100%;
   background-color: yellow;
   font-size: 13px;
@@ -114,6 +123,10 @@ a {
   text-overflow: ellipsis;
   text-decoration: none;
   color: black;
+}
+
+.headlines {
+  margin-right: 20px;
 }
 
 .orange {
@@ -139,10 +152,11 @@ a {
 
 .news_text {
   color: white;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px gray;
   height: 100%;
   display: flex;
   flex-direction: column-reverse;
+  padding-left: 8px;
 }
 
 .news_headline {
