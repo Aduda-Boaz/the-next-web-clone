@@ -17,6 +17,10 @@
     margin-top: 108px;
   }
 
+  .orange_shadow {
+    display: none;
+  }
+
   .hg_date_logo {
     display: none;
   }
@@ -183,5 +187,12 @@
     width: 50%;
     height: 110px;
     margin: 10px;
+  }
+
+  .orange_shadow {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/cover-gradient.webp");
+  background-size: cover;
   }
 }
