@@ -179,6 +179,18 @@
     background-size: cover;
   }
 
+  .most_popular {
+    display: grid;
+    grid-row: grid-row-start / grid-row-end;
+  }
+
+  .header_popular {
+    display: grid;
+    grid-row: 1 / span 2;
+    padding: 10px 10px;
+    gap: 20px;
+  }
+
   .articles {
     flex-direction: row;
   }
@@ -204,11 +216,6 @@
   .latest_news img {
     width: 100%;
     height: auto;
-  }
-
-  .most_popular {
-    display: grid;
-    grid-template-rows: 1;
   }
 
   .list_deals_container {
@@ -250,6 +257,7 @@
     background-image: url("images/deals-ribbon.svg");
   }
 }
+
 
 @media only screen and (min-width: 1048px) {
   .art_x {

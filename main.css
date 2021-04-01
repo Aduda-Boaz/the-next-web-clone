@@ -109,14 +109,14 @@ a {
   justify-content: center;
 }
 
-.most_popular {
+/* .most_popular {
   display: grid;
   grid-template-columns: auto auto auto;
   width: 100%;
   height: fit-content;
   padding: 10px 10px;
   gap: 20px;
-}
+} */
 
 .popular_most {
   background-image: url(./images/pic1.jpg);
