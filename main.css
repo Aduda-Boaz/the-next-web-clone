@@ -127,9 +127,8 @@ a {
   font-weight: 800;
 }
 
-.popular_most a span {
-  font-size: small;
-  font-weight: 500;
+.popular_paragraph {
+  font-size: 14px;
   color: grey;
 }
 
@@ -153,6 +152,10 @@ a {
 .latest_most_headlines ul {
   line-height: 40px;
   color: #f42;
+}
+
+.latest_most_headlines a {
+  color: black;
 }
 
 .latest_popular_header {
