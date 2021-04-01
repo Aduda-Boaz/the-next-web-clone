@@ -181,13 +181,7 @@
 
   .most_popular {
     display: grid;
-    grid-row: grid-row-start / grid-row-end;
-  }
-
-  .header_popular {
-    display: grid;
-    grid-row: 1 / span 2;
-    padding: 10px 10px;
+    grid-template-columns: auto auto;
     gap: 20px;
   }
 
@@ -259,7 +253,7 @@
 }
 
 
-@media only screen and (min-width: 1048px) {
+@media only screen and (min-width: 1024px) {
   .art_x {
     display: block;
   }
@@ -300,6 +294,12 @@
   .list_deals_container {
     display: grid;
     grid-template-columns: auto auto auto auto;
+  }
+
+  .most_popular {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
   }
 }
 
