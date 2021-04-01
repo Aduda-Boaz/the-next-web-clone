@@ -109,6 +109,57 @@ a {
   justify-content: center;
 }
 
+.most_popular {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 10px;
+  gap: 20px;
+}
+
+.popular_most {
+  background-image: url(./images/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 300px;
+}
+
+.popular_content ul,
+.popular_content li,
+.popular_content a {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: left;
+}
+
+.latest_popular_header {
+  padding: 5px;
+  color: #f42;
+}
+
+.latest_popular {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0361614;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.latest_popular_header {
+  align-items: left;
+  text-decoration: none;
+}
+
+.latest_popular img {
+  width: 100px;
+  height: 100px;
+}
+
 .yellow_banner {
   padding-left: 6px;
   padding-right: 6px;

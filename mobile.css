@@ -206,6 +206,11 @@
     height: auto;
   }
 
+  .most_popular {
+    display: grid;
+    grid-template-rows: 1;
+  }
+
   .list_deals_container {
     display: grid;
     grid-template-columns: auto auto auto;
