@@ -113,6 +113,8 @@ a {
   background-image: url(./images/pic1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 150px;
+  padding-left: 10px;
   background-position: 50% 50%;
   height: 150px;
 }
@@ -136,7 +138,6 @@ a {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  align-items: left;
 }
 
 .popular_header {
@@ -160,16 +161,11 @@ a {
 
 .latest_popular_header {
   padding: 5px;
+  text-decoration: none;
   color: #f42;
 }
 
-.popular_most {
-  padding-top: 150px;
-  padding-left: 10px;
-}
-
-.popular_most h3,
-.popular_most a {
+.popular_most h3 {
   color: #ffebe7;
 }
 
@@ -193,11 +189,6 @@ a {
   height: 100px;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-
-.latest_popular_header {
-  align-items: left;
-  text-decoration: none;
 }
 
 .latest_popular img {
