@@ -122,11 +122,13 @@ a {
 .popular_most h3 {
   font-size: 18px;
   font-weight: 600;
+  color: #ffebe7;
 }
 
 .popular_most a {
   font-size: 24px;
   font-weight: 800;
+  color: #fffaf8;
 }
 
 .popular_paragraph {
@@ -165,20 +167,11 @@ a {
   color: #f42;
 }
 
-.popular_most h3 {
-  color: #ffebe7;
-}
-
 .popular_most ul {
-  margin-top: 120px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 120px 0 0;
   color: #ffebe7;
-}
-
-.popular_most a {
-  color: #fffaf8;
 }
 
 .latest_popular {
