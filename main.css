@@ -1,0 +1,455 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top_nav {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.top_black_navigation a {
+  text-decoration: none;
+  margin: 1px;
+  color: white;
+}
+
+.ul_left,
+.ul_right {
+  padding: 0 5px;
+}
+
+.mobile_nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top_navigation {
+  width: 100%;
+  height: 48px;
+  background-color: white;
+}
+
+.more_links_nav {
+  width: 100%;
+}
+
+.tnw_logo img {
+  width: 106px;
+  height: 48px;
+}
+
+.tnw_logo {
+  width: 106px;
+  height: 48px;
+}
+
+.search_logo_top {
+  text-align: center;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+  width: 48px;
+  border: 1px solid lightgray;
+}
+
+.top_menu {
+  text-align: center;
+}
+
+.search_logo_top img,
+.top_menu img {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+}
+
+/* Latest news */
+.latest_container {
+  margin: 20px 10px 20px 10px;
+}
+
+.most_header a {
+  color: #f42;
+}
+
+.latest_header {
+  text-align: left;
+}
+
+.latest_header h5 {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.link_black {
+  margin-bottom: 0;
+}
+
+.link_black a {
+  color: black;
+}
+
+.link_orange a {
+  color: #f42;
+}
+
+.author_article {
+  font-size: small;
+  color: rgb(136, 130, 130);
+  margin-top: 0;
+}
+
+.vert_align {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popular_most {
+  position: relative;
+  background-image: url(./images/pic2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50%;
+  padding-left: 10px;
+  background-position: 50% 50%;
+  height: 150px;
+}
+
+.popular_most_text h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffebe7;
+}
+
+.popular_most_text a {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fffaf8;
+}
+
+.popular_most_text {
+  position: absolute;
+  bottom: 0;
+}
+
+.popular_paragraph {
+  font-size: 14px;
+  color: grey;
+}
+
+.latest_popular_header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular_header {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.latest_popular_header a {
+  color: #f42;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.latest_most_headlines ul {
+  font-size: 12px;
+  padding-left: 15px;
+  line-height: 20px;
+  color: #f42;
+}
+
+.latest_most_headlines hr {
+  margin: 10px 0 15px 0;
+  color: white;
+  opacity: 0.2;
+}
+
+.latest_most_headlines a {
+  color: #333;
+}
+
+.latest_popular_header {
+  padding: 10px;
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest_popular_header h5 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.popular_most ul {
+  list-style-type: none;
+  padding: 0;
+  color: #ffebe7;
+}
+
+.latest_popular {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0361614;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.latest_popular img {
+  width: 100px;
+  height: 100px;
+}
+
+.yellow_banner {
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 100%;
+  background-color: yellow;
+  font-size: 13px;
+}
+
+.yellow_banner a {
+  width: 480px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: black;
+}
+
+.art h2,
+.art_x h2 {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.art img,
+.art_x img {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.articles hr {
+  color: #f42;
+}
+
+.links_latest {
+  color: #f42;
+}
+
+.links_latest a {
+  color: #f42;
+}
+
+.orange {
+  display: flex;
+  background-color: #f42;
+  color: white;
+  height: 43px;
+}
+
+.orange a {
+  color: white;
+  margin-left: 10px;
+}
+
+.pink {
+  background: #ffebe7;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.pink_text {
+  padding-top: 5px;
+  width: 100px;
+  height: 100%;
+  position: relative;
+  left: 80px;
+}
+
+.pink_text h3 {
+  margin-top: 15px;
+  line-height: 0px;
+}
+
+.pink a {
+  color: gray;
+}
+
+.extra_info,
+.description {
+  background-color: #fffaf8;
+  padding-left: 10px;
+}
+
+.extra_info a,
+.description a {
+  color: gray;
+}
+
+.art,
+.art_x,
+.links_latest {
+  padding: 5px;
+}
+
+.headlines {
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.news_text,
+.orange_shadow {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 8px;
+}
+
+.news_text a,
+.news_text p {
+  margin-right: 10px;
+  color: white;
+  text-shadow: 1px 1px gray;
+}
+
+.news_headline {
+  background-image: url("images/hg3.jpg");
+}
+
+.news_headline2 {
+  background-image: url("images/hg1.webp");
+}
+
+.news_headline3 {
+  background-image: url("images/hg2.webp");
+}
+
+.link_to_deals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.link_to_deals h2 {
+  font-size: 28px;
+}
+
+.link_to_deals a,
+.link_to_deals p {
+  color: #f42;
+}
+
+.footer-container {
+  background: black;
+}
+
+.links_container {
+  padding: 20px 0;
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+}
+
+.footer_links {
+  display: block;
+}
+
+.footer_links img {
+  width: 20px;
+  height: 20px;
+  background: rgb(17, 15, 15);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ft_links a {
+  text-decoration: none;
+  font-size: small;
+  color: blanchedalmond;
+}
+
+.other_links a {
+  padding: 5px;
+}
+
+.list_deals {
+  padding: 0;
+}
+
+.list_deals span,
+.list_deals p {
+  margin: 0 10px;
+}
+
+.list_deals span {
+  color: gray;
+}
+
+.list_deals_container {
+  padding-left: 10px;
+}
+
+.footer_lower {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  background: black;
+  line-height: 1.2;
+}
+
+.footer_legal a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_links a:hover {
+  opacity: 0.5;
+}
+
+.footer-legal-StackPath {
+  width: 100px;
+  height: 70px;
+}
+
+.footer-legal,
+.footer-legal-StackPath {
+  display: inline-block;
+  height: 20px;
+  width: auto;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.link_black:hover a {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.link_orange a:hover {
+  color: black;
+}
+
+.latest_most_headlines a:hover {
+  color: #666;
+}
